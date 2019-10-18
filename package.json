@@ -6,6 +6,12 @@
   "author": "Erislandio <erislandio.soares@acct.global>",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
   }
 }
