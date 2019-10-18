@@ -1,0 +1,11 @@
+{
+  "name": "api-reconhecimento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Erislandio/api-reconhecimento-imagens.git",
+  "author": "Erislandio <erislandio.soares@acct.global>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
