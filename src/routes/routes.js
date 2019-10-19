@@ -2,6 +2,6 @@ const express = require('express')
 const routes = express.Router()
 const analyzeImageFileController = require('../app/controllers/imageController')
 
-routes.get('/analyzeimagefile', analyzeImageFileController.anaalyzeImageFIle)
+routes.post('/analyzeimagefile', analyzeImageFileController.analyzeImageFIle)
 
 module.exports = routes
